@@ -91,7 +91,7 @@ textarea {
 
 header,
 footer {
-  background-color: green;
+  background-color: hsl(114,38%,39%);
 }
 
 /* Header styles */
