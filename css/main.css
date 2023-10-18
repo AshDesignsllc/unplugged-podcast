@@ -108,8 +108,13 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+.content-wrapper {
+  width: 90%;
+}
+
 header nav {
   display: flex;
+  width: 40%;
 }
 
 header nav ul {
@@ -117,6 +122,7 @@ header nav ul {
   list-style-type: none;
   justify-content: space-between;
   gap: 15px;
+  width: 20%;
 }
 
 /* Main styles */
@@ -126,8 +132,20 @@ header nav ul {
   justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
+  width: 95%;
+  /* border: 2px dotted blue; */
 }
 
+aside {
+  /* border: 2px dotted blue; */
+  width: 95%;
+}
+
+.signup-form {
+  /* border: 2px dotted blue; */
+  width: 50%;
+  margin: auto;
+}
 .signup-form #flex-item-1, #flex-item-2 {
   display: flex;
   justify-content: center;
@@ -138,6 +156,16 @@ header nav ul {
   justify-content: center;
 }
 
+.features .content-wrapper {
+  /* border: 2px dotted blue; */
+  width: 95%
+}
+
+.episode-description .content-wrapper {
+  /* border: 2px dotted blue; */
+  width: 95%;
+}
+
 /* Footer styles */
 
 footer {
@@ -145,6 +173,12 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+footer .content-wrapper {
+  /* border: 2px dotted blue; */
+  width: 75%;
+  margin: 50px 0;
 }
 
 footer h4 {
