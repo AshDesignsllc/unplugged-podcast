@@ -103,26 +103,34 @@ justify-content: center;
 
 header .content-wrapper {
   display: flex;
-  justify-content: center;
+  /* justify-content: space-evenly; */
   align-items: center;
-  flex-flow: row wrap;
+  border: 2px dotted aqua;
 }
 
-.content-wrapper {
-  width: 90%;
+/* .content-wrapper {
+  width: 95%;
+  border: 2px dotted orange;
+} */
+
+header #logo {
+  width: 20%;
+  height: auto;
+  border: 2px dotted orange;
 }
 
 header nav {
   display: flex;
-  width: 40%;
+  width: 50%;
+  border: 2px dotted aqua;
 }
 
 header nav ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
-  gap: 15px;
-  width: 20%;
+  /* justify-content: center; */
+  gap: 10px;
+  padding-left: 0;
 }
 
 /* Main styles */
