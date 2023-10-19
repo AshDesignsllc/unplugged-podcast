@@ -98,39 +98,40 @@ footer {
 
 header {
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 }
 
 header .content-wrapper {
   display: flex;
-  /* justify-content: space-evenly; */
   align-items: center;
-  border: 2px dotted aqua;
+  /* border: 2px dotted aqua; */
 }
 
-/* .content-wrapper {
-  width: 95%;
-  border: 2px dotted orange;
-} */
-
-header #logo {
+header .logo {
   width: 20%;
   height: auto;
-  border: 2px dotted orange;
+  /* border: 2px dotted orange; */
+  margin-left: 20px;
 }
 
 header nav {
   display: flex;
   width: 50%;
-  border: 2px dotted aqua;
+  /* border: 2px dotted aqua; */
+  margin: 0 25px;
 }
 
 header nav ul {
   display: flex;
   list-style-type: none;
-  /* justify-content: center; */
-  gap: 10px;
+  gap: 15px;
   padding-left: 0;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* Main styles */
