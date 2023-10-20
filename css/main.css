@@ -187,6 +187,32 @@ aside {
   justify-content: space-evenly;
   margin: 0 20px;
 }
+
+.map .content-wrapper figure {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section .content-wrapper {
+  display: flex;
+  margin: 0 20px;
+}
+
+address {
+  margin-bottom: 50px;
+}
+
+.contact-content .general-information, .host-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px 20px;
+}
+
+.host-information h4 {
+  margin: 10px 0;
+}
+
 /* Footer styles */
 
 footer {
