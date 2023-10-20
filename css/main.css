@@ -175,6 +175,18 @@ aside {
   width: 95%;
 }
 
+/* About Page styles */
+
+.mission .content-wrapper {
+  display: flex;
+}
+
+.content-wrapper .mission-content {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  margin: 0 20px;
+}
 /* Footer styles */
 
 footer {
