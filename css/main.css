@@ -107,11 +107,16 @@ header .content-wrapper {
   /* border: 2px dotted aqua; */
 }
 
+header .content-wrapper a {
+  display: flex;
+}
+
 header .logo {
   width: 20%;
   height: auto;
   /* border: 2px dotted orange; */
   margin-left: 20px;
+  flex: 0 1 auto;
 }
 
 header nav {
@@ -140,7 +145,7 @@ header nav ul li a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   width: 95%;
   /* border: 2px dotted blue; */
 }
@@ -211,6 +216,15 @@ address {
 
 .host-information h4 {
   margin: 10px 0;
+}
+
+/* FAQ styles */
+
+.questions-section .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 40px 20px;
 }
 
 /* Footer styles */
