@@ -162,6 +162,8 @@ header nav ul li a {
 aside {
   /* border: 2px dotted blue; */
   width: 95%;
+  display: flex;
+  justify-content: center;
 }
 
 .signup-form {
@@ -169,7 +171,8 @@ aside {
   width: 50%;
   margin: auto;
 }
-.signup-form #flex-item-1, #flex-item-2 {
+
+.signup-form h3, #flex-item-1, #flex-item-2 {
   display: flex;
   justify-content: center;
 }
@@ -383,16 +386,13 @@ footer h4 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+   @media only screen and (min-width: 768px) {
+  
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    
+  }
 
 /* ==========================================================================
    Print styles.
