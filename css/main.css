@@ -392,36 +392,60 @@ footer h4 {
    Modify as content requires.
    ========================================================================== */
 
+   /* Tablet styles here*/
+
    @media only screen and (min-width: 768px) {
-    header nav {
+    header nav ul {
       display: flex;
       justify-content: flex-end;
       width: 100%;
     }
 
+    header .content-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 640px;
+    }
+
     .hero-area .content-wrapper {
-      height: 600px;
+      margin: 0 10px;
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
     }
 
     aside {
       height: 150px;
       margin: 0 auto;
-      padding: 15px;
+      padding: 20px;
+      width: 640px;
     }
 
     aside .subscribe-section {
       /* border: 3px dotted purple; */
       height: 150px;
-      padding: 15px;
-      width: 100%;
+      margin: 15px;
+      width: 95%;
     }
 
     aside .content-wrapper {
       display: flex;
+      justify-content: center;
+      align-content: space-around;
       flex-direction: row;
     }
+
+    .features .content-wrapper {
+      display: flex;
+      align-items: center;
+      flex-flow: column;
+    }
+
     .signup-form {
+      display: flex;
       margin: 0 auto;
+      flex-flow: column;
+      padding-left: 10px;
     }
 
     .episode-description .content-wrapper h2 {
@@ -431,7 +455,6 @@ footer h4 {
     article {
       display: flex;
       justify-content: space-evenly;
-      /* flex-wrap: wrap; */
     }
     
     article .title-description {
@@ -439,6 +462,8 @@ footer h4 {
     }
   }
   
+  /*Desktop styles here*/
+
   @media only screen and (min-width: 1200px) {
     
   }
