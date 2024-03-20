@@ -460,6 +460,37 @@ footer h4 {
     article .title-description {
       width: 50%
     }
+
+    /* 
+    ==========================================================================
+   About Page
+   ==========================================================================
+    */
+
+    .mission-content {
+      display: flex;
+      justify-content: space-between;
+      align-items:flex-start;
+    }
+
+    .mission-content p {
+      width: ;
+    }
+
+    .map .content-wrapper figure iframe {
+      min-width: 768px; 
+      max-width: 1200px;
+    }
+    
+    .contact-section .content-wrapper h2 {
+      width: ;
+    }
+
+    .contact-content {
+      display: ;
+      justify-content: ;
+      align-items: ;
+    }
   }
   
   /*Desktop styles here*/
