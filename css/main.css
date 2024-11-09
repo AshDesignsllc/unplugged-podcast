@@ -461,6 +461,17 @@ footer h4 {
       width: 50%
     }
 
+    .episode-image img {
+      width: 80%;
+      margin: 20px 50px;
+    }
+
+    .flex-item-2 {
+      padding: 10px 0;
+    }
+
+
+
     /* 
     ==========================================================================
    About Page
