@@ -203,6 +203,12 @@ aside {
   margin-bottom: 18px;
 }
 
+.episode-image img{
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+
 /* About Page styles */
 
 .mission .content-wrapper {
@@ -456,20 +462,42 @@ footer h4 {
       display: flex;
       justify-content: space-evenly;
     }
-    
-    article .title-description {
-      width: 50%
-    }
 
     .episode-image img {
-      width: 80%;
-      margin: 20px 50px;
+      width: 90%;
+      margin: 20px 0 0 40px;
     }
 
     .flex-item-2 {
       padding: 10px 0;
     }
+    
+    .episode-description .content-wrapper article {
+      display: flex;
+      justify-content: space-between;
+    }
 
+    footer h4 {
+      margin: 15px 0;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content:space-between;
+      align-items:flex-start;
+    }
+
+    .social-icons {
+      margin-top: -15px;
+    }
+
+    footer .contact {
+      margin-bottom: 0;
+    }
+
+    footer .copyright {
+      width: 100%;
+    }
 
 
     /* 
